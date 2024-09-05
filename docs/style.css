@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 全体の設定*/
+BODY{
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-weight:normal;/*文字の太さ*/
+    font-size:medium;/*文字の大きさ*/
+    text-align:center;/*文字の寄せ方*/
+    color:#000000;/*文字の色*/
+    background-color:#666666;/* 背景の色 */
+	margin:0px;/*ページの隙間設定*/
+}
+
+/*枠用ID*/
+table#structure{
+    background-color:#FFFFFF;
+    width:900px;
+    text-align:left;
+    margin:0px auto;
+	border-collapse: collapse;
+}
+td#head{
+    width:900px;
+	background-color:#000000;
+}
+td#main-left{
+    width:660px;
+	vertical-align:top;
+}
+td#main-right{
+    width:240px;
+	vertical-align:top;
+}
+td#foot{
+    width:900px;
+}
+
+/*リンク関係*/
+a:link {/*リンクされた文字の色*/
+    color:#3399FF;/*文字の色：青*/
+    font-style:normal;
+    text-decoration:underline;/* 下線 */
+}
+a:visited {/*訪問後の色*/
+    color:#9966FF;/*文字の色：紫*/
+    text-decoration:underline;/* 下線 */
+}
+a:hover {/*カーソルを合わせたときの色*/
+    color:#ff0000;/*文字の色：赤*/
+    font-style:normal;
+    text-decoration:underline;/* 下線 */
+}
+a:active {/*クリック中の色*/
+    text-decoration:none;/* なし */
+}
+
+/* ヘッド設定 */
+#head{
+    margin-top:10px;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+#img_index{
+    margin-top:10px;
+}
+
+/* 右メイン */
+h2.l-side{
+    margin:0px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    font-size:large;
+    border-color:#FBB03B;
+    border-width:1px 10px;
+    border-style:solid;
+    text-align:left;
+}
+ul.new{
+    list-style:none;
+    margin:0px;
+    padding:0.5em 1em;
+}
+#bt_back{
+	margin-left: 40px;
+}
+#new{
+    width:628px;
+    margin-top:10px;
+	margin-left:15px;
+    border-color:#666666;
+    border-width: 1px;
+    border-style:solid;
+}
+#mes{
+    width:630px;
+    margin-top:10px;
+	margin-left:10px;
+    border-color:#666666;
+    border-width: 0;
+    border-style:solid;
+}
+#showroom{
+	width: 640px;
+	margin: 0:
+}
+#jirei{
+	width: 640px;
+	margin: 0;
+	margin-bottom:50px;
+}
+/* 右メイン */
+#side_bt{
+	width: 240px;
+	margin: 0;
+
+}
+/*フット*/
+#footer{
+	font-size:10px;
+	width:150px;
+    margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+#copy{
+	font-size:10px;
+	width:220px;
+	margin-top:45px;
+	margin-left:510px;
+	text-align:right;
+	float:left;
+}
+ul.qanda{ 
+	margin:0; padding:0; 
+	list-style:none; 
+}
+li.Q { 
+	margin:20px 0; 
+	padding:0 20px 0 40px; 
+	background:url("images/liq.jpg")no-repeat; 
+}
+li.A { 
+	margin:20px 0; 
+	padding:0 20px 0 40px; 
+	background:url("images/lia.jpg")no-repeat; 
+}
